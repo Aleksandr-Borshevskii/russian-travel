@@ -1,6 +1,6 @@
 .header {
-    width: 1184px;
-    height: 52px;
     display: flex;
     flex: row;
+    justify-content: space-between;
+    margin: 0 48px auto 48px;
 }
