@@ -1,4 +1,8 @@
 .photo-grid {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 1184px;
+  height: 671px;
+  margin: 92px 48px 92px 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
 }

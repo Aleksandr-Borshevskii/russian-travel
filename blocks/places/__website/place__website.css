@@ -1,4 +1,7 @@
 .place__website {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 456px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
 }

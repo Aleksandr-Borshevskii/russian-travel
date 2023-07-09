@@ -1,4 +1,7 @@
 .place {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 984px;
+  height: 584px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

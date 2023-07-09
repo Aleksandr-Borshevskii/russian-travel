@@ -1,4 +1,11 @@
 .intro__title {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 690px;
+  height: 58px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  margin-top: 40px;
 }

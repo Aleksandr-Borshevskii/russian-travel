@@ -1,4 +1,7 @@
 .intro {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 690px;
+  height: 429px;
+  display: flex;
+  flex-direction: column;
+  margin: auto 442px auto 148px;
 }
