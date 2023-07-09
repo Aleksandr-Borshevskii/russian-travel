@@ -1,4 +1,4 @@
-.cover_background {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+.cover__background {
+  text-decoration: none;
+  z-index: 1;
 }
