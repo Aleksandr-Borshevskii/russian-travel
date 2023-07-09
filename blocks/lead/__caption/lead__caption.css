@@ -1,4 +1,10 @@
-.page {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+.lead__caption {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }

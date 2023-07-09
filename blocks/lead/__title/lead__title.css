@@ -1,4 +1,12 @@
-.page {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+.lead__title {
+  margin: auto auto 32px auto;
+  width: 720px;
+  height: 200px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px;
 }

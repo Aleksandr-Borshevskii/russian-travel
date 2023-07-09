@@ -1,4 +1,8 @@
-.page {
- background-color: #2A2C2F;;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 984px;
+    height: 1005px;
+    margin: auto 148px auto 148px;
 }
