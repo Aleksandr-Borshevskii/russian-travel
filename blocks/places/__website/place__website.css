@@ -7,3 +7,10 @@
   align-self: flex-end;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    align-self: flex-start;
+    margin: auto 16px;
+  }
+}
