@@ -1,8 +1,27 @@
 .places {
-  width: 984px;
-  height: 3392px;
+  max-width: 984px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin: auto 148px auto 148px;
+  margin: auto 148px;
   gap: 80px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    margin: auto 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    margin:auto 24px;
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    margin: auto 0;
+    gap: 50px;
+  }
 }

@@ -1,5 +1,5 @@
 .place__paragraph {
-  width: 484px;
+  max-width: 100%;
   color: #FFF;
   font-family: Inter;
   font-size: 18px;
