@@ -1,25 +1,13 @@
 .place {
   max-width: 100%;
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: max(460px) 1fr;
   column-gap: 40px;
   row-gap: 48px;
 }
 
-@media screen and (max-width: 1279px) {
-  .places {
-   
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .places {
-   
-  }
-}
-
 @media screen and (max-width: 767px) {
   .place {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
