@@ -7,17 +7,17 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-bottom: 92px;
+  margin: 8px auto 0;
 }
 
 @media screen and (max-width: 1023px) {
   .lead__caption {
-    margin-bottom: 88px;
-  }
+    margin: 16px auto 0 24px;
 }
+  }
 
 @media screen and (max-width: 767px) {
   .lead__caption {
-    margin-bottom: 64px;
+    margin: 8px auto 0 16px;
   }
 }
