@@ -2,25 +2,25 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: auto 148px;
+  margin: 0 148px;
   gap: 80px;
 }
 
 @media screen and (max-width: 1279px) {
   .places {
-    margin: auto 48px;
+    margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    margin: auto 24px;
+    margin: 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
-    margin: auto 0;
+    margin: 0;
     gap: 50px;
   }
 }
