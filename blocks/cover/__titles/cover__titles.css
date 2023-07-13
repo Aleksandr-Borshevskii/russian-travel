@@ -10,6 +10,7 @@
   margin: 0 auto;
   list-style-type: none;
   padding-left: 0;
+  text-rendering: optimizeLegibility; 
 }
 
 @media screen and (max-width: 767px) {
