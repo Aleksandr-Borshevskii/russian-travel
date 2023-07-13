@@ -1,6 +1,5 @@
 .cover__titles {
-  width: 560px;
-  height: 152px;
+  max-width: 560px;
   color: #FFF;
   text-align: center;
   font-family: Inter;
@@ -8,7 +7,27 @@
   font-style: normal;
   font-weight: 900;
   line-height: 76px;
-  margin: 245px 312px 32px 312px;
+  margin: 0 auto;
   list-style-type: none;
   padding-left: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    margin: 88px 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__titles {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
