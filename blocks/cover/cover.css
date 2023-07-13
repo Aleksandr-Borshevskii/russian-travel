@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: 0;
-
   position: relative;
 
 }
@@ -25,20 +24,20 @@
 @media screen and (max-width: 1279px) {
   .cover {
     min-height: 640px;
-    max-width: 86,48648648648649%;
+    max-width: 86, 48648648648649%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     min-height: 480px;
-    max-width: 64,86486486486486%;
+    max-width: 64, 86486486486486%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
     min-height: 200px;
-    max-width:  27,02702702702703%;
+    max-width: 27, 02702702702703%;
   }
 }
