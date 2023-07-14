@@ -8,8 +8,9 @@
   gap: 32px;
   align-content: center;
   margin: auto;
-  
-  
+  width: 100%;
+  min-height: inherit;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {

@@ -2,14 +2,14 @@
   max-width: 1184px;
   min-height: 740px;
   margin: 92px auto 0;
-  
+  display: flex;
+  align-items: center;
   background: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 0;
   position: relative;
-
 }
 
 .cover::after {
@@ -17,7 +17,7 @@
   position: absolute;
   inset: 0;
   background-color: #2A2C2F;
-  opacity: 0.30000001192092896;
+  opacity: 0.3;
 }
 
 .cover:hover::before {
@@ -25,26 +25,26 @@
   position: absolute;
   inset: 0;
   background-color: #2A2C2F;
-  opacity: 0.800000011920929;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     min-height: 640px;
-    max-width: 86, 48648648648649%;
+    max-width: 87%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     min-height: 480px;
-    max-width: 64, 86486486486486%;
+    max-width: 65%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
     min-height: 200px;
-    max-width: 27, 02702702702703%;
+    max-width: 27%;
   }
 }

@@ -1,9 +1,15 @@
 .place {
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: max(460px) 1fr;
   column-gap: 40px;
   row-gap: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns: max(440px) 1fr;
+  }
 }
 
 @media screen and (max-width: 1023px) {
