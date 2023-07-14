@@ -12,39 +12,38 @@
   position: relative;
 }
 
-.cover::after {
+
+.cover:before {
   content: "";
   position: absolute;
   inset: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
+  transition: opacity 0.3s;
 }
 
 .cover:hover::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: #2A2C2F;
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     min-height: 640px;
-    max-width: 87%;
+    max-width: 1024px;
+    margin: 66px auto 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     min-height: 480px;
-    max-width: 65%;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
     min-height: 200px;
-    max-width: 27%;
+    max-width: 320px;
   }
 }
