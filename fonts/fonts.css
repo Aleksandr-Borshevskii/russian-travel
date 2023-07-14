@@ -2,52 +2,52 @@
     font-family: "Inter";
     font-weight: 900;
     src:
-        url(../fonts/Inter-Black.woff2) format('woff2'),
-        url(../fonts/Inter-Black.woff) format('woff'),
-        url(../fonts/Inter-Black.ttf) format('truetype');
+        url(./Inter-Black.woff2) format('woff2'),
+        url(./Inter-Black.woff) format('woff'),
+        url(.Inter-Black.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: 700;
     src:
-        url(../fonts/Inter-Bold.woff2) format('woff2'),
-        url(../fonts/Inter-Bold.woff) format('woff'),
-        url(../fonts/Inter-Bold.ttf) format('truetype');
+        url(./Inter-Bold.woff2) format('woff2'),
+        url(./Inter-Bold.woff) format('woff'),
+        url(./Inter-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: 400;
     src:
-        url(../fonts/Inter-Regular.woff2) format('woff2'),
-        url(../fonts/Inter-Regular.woff) format('woff'),
-        url(../fonts/Inter-Regular.ttf) format('truetype');
+        url(./Inter-Regular.woff2) format('woff2'),
+        url(./Inter-Regular.woff) format('woff'),
+        url(./Inter-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Arial";
     font-weight: 900;
     src:
-        url(../fonts/ArialBlack.eot) format('eot'),
-        url(../fonts/ArialBlack.woff) format('woff'),
-        url(../fonts/ArialBlack.ttf) format('truetype');
+        url(./ArialBlack.eot) format('eot'),
+        url(./ArialBlack.woff) format('woff'),
+        url(./ArialBlack.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Arial";
     font-weight: 700;
     src:
-        url(../fonts/ArialBold.eot) format('eot'),
-        url(../fonts/ArialBold.woff) format('woff'),
-        url(../fonts/ArialBold.ttf) format('truetype');
+        url(./ArialBold.eot) format('eot'),
+        url(./ArialBold.woff) format('woff'),
+        url(./ArialBold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Arial";
     font-weight: 400;
     src:
-        url(../fonts/ArialRegular.eot) format('eot'),
-        url(../fonts/ArialRegular.woff) format('woff'),
-        url(../fonts/ArialRegular.ttf) format('truetype');
+        url(./ArialRegular.eot) format('eot'),
+        url(./ArialRegular.woff) format('woff'),
+        url(./ArialRegular.ttf) format('truetype');
 }

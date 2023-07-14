@@ -1,4 +1,4 @@
-.place__url-heading {
+.places__url-heading {
   max-width: 100%;
   color: #AAA;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -8,4 +8,5 @@
   line-height: 170%;
   letter-spacing: 2px;
   margin: 0;
+  text-transform: uppercase;
 }
