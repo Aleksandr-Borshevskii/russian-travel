@@ -8,6 +8,8 @@
   gap: 32px;
   align-content: center;
   margin: auto;
+  
+  
 }
 
 @media screen and (max-width: 767px) {
