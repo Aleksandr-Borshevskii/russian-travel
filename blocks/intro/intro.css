@@ -2,12 +2,12 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0 442px 0 148px;
+  margin-left: 148px;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
-    margin: 0 286px 0 48px;
+    margin-left: 48px;
   }
 }
 
