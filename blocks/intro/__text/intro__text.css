@@ -7,16 +7,5 @@
   line-height: 163%;
   max-width: 690px;
   margin: 0;
-}
-
-@media screen and (max-width: 1023px) {
-  .intro__text {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro__text {
-    max-width: 288px;
-  }
+  max-width: 100%;
 }
